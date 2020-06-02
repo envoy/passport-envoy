@@ -1,2 +1,3 @@
 /node_modules
 passport-envoy-*.tgz
+.DS_Store
