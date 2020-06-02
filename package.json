@@ -34,5 +34,11 @@
     "graphql-request": "^2.0.0",
     "isomorphic-fetch": "^2.2.1",
     "passport-oauth2": "1.x.x"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-passport-strategy": "^1.0.1",
+    "make-node": "^0.4.6",
+    "mocha": "^7.2.0"
   }
 }
