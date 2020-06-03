@@ -44,16 +44,6 @@ passport.use(
 );
 ```
 
-The default `verify` callback assumes that you are using a session middleware in order to
-save the accessToken for later retrieval.
-
-```javascript
-function verify(req, accessToken, refreshToken, profile, done) {
-  req.session.accessToken = accessToken;
-  done(null, profile.me);
-}
-```
-
 `profile` is the result of querying the Envoy GraphQL API with the following query.
 
 ```graphql
