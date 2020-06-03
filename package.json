@@ -32,7 +32,7 @@
   ],
   "dependencies": {
     "graphql-request": "^2.0.0",
-    "isomorphic-fetch": "^2.2.1",
+    "node-fetch": "^2.6.0",
     "passport-oauth2": "1.x.x"
   },
   "devDependencies": {
