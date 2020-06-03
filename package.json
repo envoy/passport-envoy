@@ -1,5 +1,5 @@
 {
-  "name": "passport-envoy",
+  "name": "@envoy/passport-envoy",
   "version": "1.0.0",
   "description": "Envoy authentication strategy for Passport",
   "main": "./lib",
