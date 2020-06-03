@@ -11,7 +11,7 @@ middleware, including [Express](http://expressjs.com/).
 ## Install
 
 ```bash
-$ npm install passport-envoy
+$ npm install @envoy/passport-envoy
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ the authenticated user's Envoy profile. The `verify` callback must call `done` p
 user to complete authentication.
 
 ```javascript
-const { Strategy } = require("passport-envoy");
+const { Strategy } = require("@envoy/passport-envoy");
 
 passport.use(
   new Strategy({
