@@ -1,4 +1,4 @@
-# passport-envoy
+# @envoy/passport-envoy
 
 [Passport](http://passportjs.org/) strategy for authenticating with
 [Envoy](https://envoy.com/) using the OAuth 2.0 API.
