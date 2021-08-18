@@ -1,6 +1,6 @@
 {
   "name": "@envoy/passport-envoy",
-  "version": "1.0.1",
+  "version": "1.0.2-pre.1",
   "description": "Envoy authentication strategy for Passport",
   "main": "./lib",
   "homepage": "https://github.com/envoy/passport-envoy",
