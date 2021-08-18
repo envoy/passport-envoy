@@ -2,7 +2,6 @@ name: Node.js Package
 on:
   release:
     types: [created]
-  push:
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,7 +17,7 @@ jobs:
         run: npm install
 
       - name: Publish package to npm
-        run: npm publish --access public --tag prerelease
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.ENVOY_NPM_AUTOMATION_TOKEN }}
 
@@ -29,6 +28,6 @@ jobs:
           cache: "npm"
 
       - name: Publish package to GitHub Package Registry
-        run: npm publish --tag prerelease
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
