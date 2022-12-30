@@ -40,7 +40,7 @@
     "chai-passport-strategy": "^1.0.1",
     "graphql-query-test-mock": "^0.12.1",
     "make-node": "^0.4.6",
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "nock": "^9.6.1"
   },
   "scripts": {
